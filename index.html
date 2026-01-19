@@ -99,6 +99,39 @@
         .hero-section .hero-details .contact-us{color: #fff; background: transparent; border-color: #fff;}
 
         .hero-section .hero-details .contact-us:hover{background: orange;}
+
+
+        /* Mobile responsiveness */
+@media (max-width: 768px) {
+    .hero-section .section-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-section .hero-image-wrapper {
+        margin: 20px 0 0 0;
+        max-width: 90%;
+    }
+
+    .hero-section .hero-details .subtitle {
+        max-width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .hero-section .hero-details .discription {
+        max-width: 100%;
+        font-size: 1rem;
+        margin: 16px 0 24px;
+    }
+
+    .hero-section .hero-details .buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+
        
     </style>
 </head>
